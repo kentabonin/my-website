@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact - My Mini Website</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: white;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+video.bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.content {
+    padding: 40px 20px;
+}
+
+nav {
+    margin: 20px 0;
+}
+
+nav a {
+    display: inline-block;
+    padding: 12px 25px;
+    margin: 0 10px;
+    background-color: rgba(255,255,255,0.9);
+    color: #0077cc;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #0077cc;
+    color: white;
+}
+
+hr {
+    margin: 20px auto;
+    width: 80%;
+    border: none;
+    height: 1px;
+    background: #ccc;
+}
+
+img {
+    max-width: 180px;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+}
+
+audio, .feature-video video {
+    margin-top: 15px;
+    max-width: 700px;
+    width: 80%;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+
+a {
+    color: #4db8ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+
+<video class="bg-video" autoplay muted loop>
+    <source src="Videos/Contact.mp4" type="video/mp4">
+</video>
+
+<div class="overlay"></div>
+
+<div class="content">
+
+<h1>Contact Us</h1>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<hr>
+
+<h2>Get in Touch</h2>
+<p>You can contact us through email or see us in Cordova Public College.</p>
+
+<img src="Image/Logo.png" alt="Contact Image">
+
+<p>Email us at: Kentabonin145@.com 
+    <br>
+ Johnrey.abergido@gmail.com
+</p>
+
+<br>
+
+<p>
+Visit 
+<a href="https://github.com/kentabonin" target="_blank">GitHub</a>
+for more information.
+</p>
+
+<audio controls>
+    <source src="Audio/Contact.mp3" type="audio/mpeg">
+</audio>
+
+<hr>
+<h3>Life of an IT student</h3>
+<div class="feature-video">
+    <video controls>
+        <source src="Videos/Life.mp4" type="video/mp4">
+    </video>
+</div>
+
+</div>
+
+</body>
+</html>
